@@ -6,14 +6,17 @@
   	# services.xserver.libinput.enable = true;
 
 	  # Define a user account. Don't forget to set a password with ‘passwd’.
-  	users.users.zero = {
+  	users = {
+		defaultUserShell = pkgs.zsh;
+		users.zero = {
     		isNormalUser = true;
     		description = "zero";
-    		extraGroups = [ "networkmanager" "wheel" ];
+    		extraGroups = [ "networkmanager" "wheel" "adbusers" ];
     		packages = with pkgs; [
       			firefox
       			kate
     			#  thunderbird
     		];
   	};
+	};
 }

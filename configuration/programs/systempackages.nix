@@ -7,12 +7,9 @@
   # $ nix search wget
   environment.systemPackages = with pkgs; [
 		git
-		vim 
+		vim
+		typora 
     		wget
-    	       #	wpsoffice-cn
-    		#qq
-    		#vscode
-    		tree
 		android-tools
     		alacritty
     		ntfs3g

@@ -6,7 +6,7 @@
   
   home.packages = with pkgs; [
     	firefox
-    	brave
+#    	brave
 	thunderbird
 	qq
 	tree
@@ -14,8 +14,8 @@
 	htop
 	vscode
     	neofetch
-	typora
     # environment settings
+	jdk8
 	jetbrains.idea-ultimate
     # wpsoffice-cn
     	onlyoffice-bin

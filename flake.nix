@@ -16,7 +16,6 @@
   outputs = { self, nixpkgs, home-manager, nur, ... }: 
 	(let
 		system = "x86_64-linux";
-		
 	in {
 		nixosConfigurations.zero = nixpkgs.lib.nixosSystem {
 		inherit system;

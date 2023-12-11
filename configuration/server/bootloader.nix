@@ -7,6 +7,10 @@
 		"loglevel=0"
 		"quiet"	
 		];
+	boot = {
+		kernelPackages = pkgs.linuxPackages_latest;
+		initrd.kernelModules = [ "nvidia" ];
+	};
 	boot.loader = {
 		efi.efiSysMountPoint = "/boot/efi";
 		timeout = 2;
