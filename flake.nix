@@ -22,7 +22,7 @@
 		modules = [
 			./configuration/system.nix
 			./configuration/server.nix	
-			./configuration/programs.nix
+			./configuration/software.nix
 			./configuration/users.nix	
 		home-manager.nixosModules.home-manager
 			{

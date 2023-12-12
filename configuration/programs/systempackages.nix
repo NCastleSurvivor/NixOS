@@ -8,14 +8,14 @@
   environment.systemPackages = with pkgs; [
 	git
 	vim
-    	typora	
+  typora	
 	wget
 	android-tools
 	timeshift   
 	ntfs3g
-   	pciutils
-  	papirus-icon-theme
-    	zsh
+  pciutils
+  papirus-icon-theme
+  zsh
   	];
   
 }
