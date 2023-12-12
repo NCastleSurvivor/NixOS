@@ -3,7 +3,8 @@
 
   # Inputs
   inputs = {
-	nixpkgs.url = "nixpkgs/nixos-unstable";
+	nixpkgs.url = "nixpkgs/master";
+	#nixpkgs.url = "nixpkgs/nixos-unstable/";
 	nur.url = "github:nix-community/NUR";
 	home-manager = {
 		url = "github:nix-community/home-manager";
