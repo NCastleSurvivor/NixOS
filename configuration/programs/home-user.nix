@@ -6,7 +6,6 @@
   
   home.packages = with pkgs; [
     	firefox
-#    	brave
 	thunderbird
 	qq
 	tree

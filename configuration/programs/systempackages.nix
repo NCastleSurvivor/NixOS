@@ -6,16 +6,16 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-		git
-		vim
-		typora 
-    		wget
-		android-tools
-    		alacritty
-    		ntfs3g
-    		pciutils
-    		papirus-icon-theme
-    		zsh
+	git
+	vim
+    	typora	
+	wget
+	android-tools
+	timeshift   
+	ntfs3g
+   	pciutils
+  	papirus-icon-theme
+    	zsh
   	];
   
 }
