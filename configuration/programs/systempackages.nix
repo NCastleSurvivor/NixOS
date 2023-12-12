@@ -11,7 +11,7 @@
   typora	
 	wget
 	android-tools
-	timeshift   
+	# timeshift   
 	ntfs3g
   pciutils
   papirus-icon-theme
