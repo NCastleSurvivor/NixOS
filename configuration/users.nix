@@ -15,7 +15,6 @@
     		packages = with pkgs; [
       			firefox
       			kate
-    			#  thunderbird
     		];
   	};
 	};

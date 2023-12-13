@@ -8,7 +8,7 @@
   environment.systemPackages = with pkgs; [
 	git
 	vim
-  typora	
+  # typora	
 	wget
 	android-tools
 	ntfs3g

@@ -5,20 +5,18 @@
   #];
   
   home.packages = with pkgs; [
-    	firefox
+  firefox
 	thunderbird
 	qq
 	tree
 	which
 	htop
 	vscode
-    	neofetch
+  neofetch
     # environment settings
 	jdk8
 	jetbrains.idea-ultimate
-    # wpsoffice-cn
-    	onlyoffice-bin
-    # libreoffice-fresh
+  onlyoffice-bin
 
   ];
 }

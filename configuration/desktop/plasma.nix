@@ -11,7 +11,7 @@
 			sddm.enable = true;
 			sddm.wayland.enable = true;
 			# Enable the KDE Plasma Desktop Environment.
-  			sddm.autoNumlock = true;
+  			sddm.autoNumlock = false;
 			};
   		desktopManager.plasma5.enable = true;
 	};

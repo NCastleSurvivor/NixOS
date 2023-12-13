@@ -9,7 +9,7 @@
 		];
 	boot = {
 		kernelPackages = pkgs.linuxPackages_latest;
-		initrd.kernelModules = [ "nvidia" ];
+		# initrd.kernelModules = [ "nvidia" ];
 	};
 	boot.loader = {
 		efi.efiSysMountPoint = "/boot/efi";
