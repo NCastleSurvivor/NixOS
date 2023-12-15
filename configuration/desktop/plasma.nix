@@ -16,12 +16,16 @@
 			};
   		desktopManager.plasma5.enable = true;
 	};
-  	environment.plasma5.excludePackages = with pkgs.libsForQt5; [
-		elisa
-		gwenview
-		okular
-		print-manager
-		konsole 	
-		plasma-browser-integration
+  	environment.plasma5.excludePackages = with pkgs;  [
+		libsForQt5.elisa
+		konsole
+		libsForQt5.gwenview
+		libsForQt5.okular
+		libsForQt5.print-manager
+		libsForQt5.konsole 	
+		libsForQt5.qmlkonsole
+		libsForQt5.plasma-browser-integration
+		plasma5Packages.konsole
 	];
+
 }

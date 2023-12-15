@@ -15,6 +15,7 @@
    pciutils
    papirus-icon-theme
    zsh
+   alacritty
   	];
   
 }
