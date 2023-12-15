@@ -5,7 +5,7 @@
     
     # xddxdd.dingtalk
     xddxdd.wechat-uos-bin
-    
+    xddxdd.bilibili 
   ];
 }
 

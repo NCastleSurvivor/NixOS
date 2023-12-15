@@ -8,6 +8,7 @@
   	services.xserver = { 
 		enable = true;
   		displayManager = {
+			defaultSession = "plasmawayland";
 			sddm.enable = true;
 			sddm.wayland.enable = true;
 			# Enable the KDE Plasma Desktop Environment.
@@ -20,6 +21,7 @@
 		gwenview
 		okular
 		print-manager
-		konsole
- 		];
+		konsole 	
+		plasma-browser-integration
+	];
 }
