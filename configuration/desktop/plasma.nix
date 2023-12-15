@@ -6,7 +6,7 @@
 {
 	# Enable the X11 windowing system.
   	services.xserver = { 
-		enable = true;
+		  enable = true;
   		displayManager = {
 			defaultSession = "plasmawayland";
 			sddm.enable = true;

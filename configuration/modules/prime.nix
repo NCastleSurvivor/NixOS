@@ -12,10 +12,10 @@ let
 in {
   environment.systemPackages = [ nvidia-offload ];
 
-  hardware.nvidia.prime = {
-    offload.enable = lib.mkDefault true;
-    # Hardware should specify the bus ID for intel/nvidia devices
-    amdgpuBusId = "PCI:6:0:0";
-    nvidiaBusId = "PCI:1:0:0";
-  };
+  # hardware.nvidia.prime = {
+  #   offload.enable = lib.mkDefault true;
+  #   # Hardware should specify the bus ID for intel/nvidia devices
+  #   amdgpuBusId = "PCI:6:0:0";
+  #   nvidiaBusId = "PCI:1:0:0";
+  # };
 }

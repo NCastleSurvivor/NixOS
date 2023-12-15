@@ -9,6 +9,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./desktop/plasma.nix
+      # ./desktop/gnome.nix
       ./desktop/font.nix
     ];
 

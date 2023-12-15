@@ -25,6 +25,9 @@
 			./configuration/server.nix	
 			./configuration/software.nix
 			./configuration/users.nix	
+			./configuration/desktop/plasma.nix
+			# ./configuration/desktop/gnome.nix
+
 		home-manager.nixosModules.home-manager
 			{
 			home-manager.useGlobalPkgs = true;
@@ -39,5 +42,6 @@
 
 			];
 		};
+
 	  });
 }
