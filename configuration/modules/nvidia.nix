@@ -1,5 +1,6 @@
 { config, lib, pkgs, ... }:
 {
+	imports = [./prime.nix];
 	hardware.opengl = {
 		enable = true;
 		driSupport = true;
@@ -28,8 +29,8 @@
 		prime = {
 			offload.enable = true;
 			offload.enableOffloadCmd = true;
-			nvidiaBusId = "PCI:01:00:0";
-			amdgpuBusId = "PCI:06:00:0";
+			nvidiaBusId = "PCI:1:0:0";
+			amdgpuBusId = "PCI:6:0:0";
 		};
   };
 		services.xserver.videoDrivers = [ "nvidia" "amdgpu"];
