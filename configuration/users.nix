@@ -14,7 +14,7 @@
     		extraGroups = [ "networkmanager" "wheel" "adbusers" ];
     		packages = with pkgs; [
       			firefox
-      			kate
+      			# kate #依赖konsole,导致无法卸载konsole
     		];
   	};
 	};
