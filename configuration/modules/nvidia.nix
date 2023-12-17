@@ -1,6 +1,5 @@
 { config, lib, pkgs, ... }:
 {
-#	imports = [./prime.nix];
 	hardware.opengl = {
 		enable = true;
 		driSupport = true;
