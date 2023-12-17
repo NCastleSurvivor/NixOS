@@ -13,7 +13,7 @@
 	};
 	boot.loader = {
 		efi.efiSysMountPoint = "/boot/efi";
-		timeout = 2;
+		timeout = 1;
 		grub = {
 			enable = true;
 			efiSupport = true;
