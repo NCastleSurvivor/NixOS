@@ -15,7 +15,7 @@
   neofetch
     # environment settings
 	jdk8
-#	jetbrains.idea-ultimate
+	jetbrains.idea-ultimate
   onlyoffice-bin
 
   ];
