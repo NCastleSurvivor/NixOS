@@ -26,6 +26,8 @@
 			./configuration/software.nix
 			./configuration/users.nix	
 			./configuration/desktop/plasma.nix
+			# import database modules 
+			./configuration/database.nix
 			# ./configuration/desktop/gnome.nix
 
 		home-manager.nixosModules.home-manager
