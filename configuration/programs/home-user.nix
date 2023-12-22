@@ -12,7 +12,8 @@
 	which
 	htop
 	vscode
-  neofetch
+#  neofetch
+	fastfetch
     # environment settings
 	jdk8
 	jetbrains.idea-ultimate
